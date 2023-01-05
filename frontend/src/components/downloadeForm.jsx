@@ -23,7 +23,7 @@ function DownloadeForm() {
   async function submitForm(values) {
     setLoading(true);
     const data = await Axios.get(
-      `http://localhost:4000/download?url=${values.url}`
+      `https://plz-work-mth-fker.onrender.com/download?url=${values.url}`
     );
     setData(data);
     setLoading(false);
