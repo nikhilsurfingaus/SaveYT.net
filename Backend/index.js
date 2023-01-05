@@ -1,7 +1,14 @@
+import { createRequire } from 'module'
+const require = createRequire(
+    import.meta.url);
+
 const express = require('express')
 const ytdl = require('ytdl-core')
 const cors = require('cors')
 
+require("dotenv").config();
+
+const port = process.env.PORT || 4000;
 
 const app = express()
 app.use(cors())
@@ -23,6 +30,6 @@ app.get("/download", async(req, res) => {
     }
 })
 
-app.listen(4000, () => {
-    console.log("Server is running on PORT: 4000")
+app.listen(port, () => {
+    console.log(`Server is running on PORT: ${port}`)
 })
