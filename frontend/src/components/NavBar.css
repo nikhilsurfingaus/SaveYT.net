@@ -1,0 +1,143 @@
+.NavbarItems {
+    background-color: #1b6974;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    z-index: 1;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-content: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+    background: #1b6974;
+}
+
+.logo {
+    text-decoration: none;
+    background: #1b6974;
+}
+
+.plane {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    opacity: 80%;
+    background: #1b6974;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    background: #1b6974;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    background: #1b6974;
+}
+
+.nav-links:hover {
+    background-color: #39c6d8;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-links.active {
+    color: black;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.animate__animated.animate__fadeIn {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    background: #1b6974;
+}
+
+@media screen and (max-width:960px) {
+    .NavbarItems {
+        position: relative;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background: #2297a6;
+    }
+    .nav-menu.active {
+        background: #2297a6;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    .nav-menu.inactive {
+        display: none;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        background: #2297a6;
+    }
+    .nav-links:hover {
+        background-color: #73cfdc;
+        border-radius: 0;
+    }
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(5%, 50%);
+        font-size: 35px;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        background: #1b6974;
+    }
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+        background: #1b6974;
+    }
+    .fa-bars {
+        background: #1b6974;
+    }
+    .logo:hover {
+        transition: none;
+    }
+}

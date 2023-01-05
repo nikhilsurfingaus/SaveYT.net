@@ -1,0 +1,7 @@
+.Footy {
+    position: relative;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    margin-bottom: -100px !important;
+}

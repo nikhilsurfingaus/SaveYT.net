@@ -1,0 +1,73 @@
+.prof {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.githCard {
+    margin-left: 50px !important;
+    box-shadow: 0 0 6px 5px #68c12d, 0 0 5px 5px #68c12d, 0 0 4px 8px #68c12d;
+}
+
+.unCard {
+    margin-top: -5px;
+}
+
+.downPKG {
+    margin-top: 30px;
+}
+
+.downPKG a {
+    text-decoration: none;
+}
+
+.GButton {
+    background-color: #79dd37 !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 68px !important;
+}
+
+.GButton:hover {
+    background-color: #6dc433 !important;
+}
+
+.update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live {
+    font-size: 0.8rem;
+    padding-right: 4px;
+    align-items: center;
+    justify-content: center;
+    color: #64c026;
+    animation: blinker 2.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .GButton {
+        margin-left: 64px !important;
+    }
+    .update {
+        margin-left: -13px;
+    }
+}

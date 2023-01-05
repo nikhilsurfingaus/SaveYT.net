@@ -1,0 +1,120 @@
+.FMain {
+    background-color: #68c12d;
+    padding-top: 0.8rem;
+    margin-top: 150px;
+    height: 42vh;
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+}
+
+.copyright p {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    opacity: 80%;
+}
+
+.footer__col1 {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.footer__col1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__col1 p {
+    font-size: 0.8rem !important;
+    color: white;
+    font-weight: 500;
+    max-width: 100%;
+}
+
+.footer__col2,
+.footer__col3,
+.footer__col4 {
+    flex: 1;
+}
+
+.footer__col3 h2 {
+    margin-left: 50px !important;
+}
+
+.footer__col4 h2 {
+    margin-left: 35px !important;
+}
+
+.footer__col1__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .footer__col1 {
+        margin-left: 25px;
+    }
+    .footer__col1 {
+        max-width: 100%;
+    }
+    .footer__col1 p {
+        font-size: 0.8rem !important;
+        color: white;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    .footer__col1,
+    .footer__col2,
+    .footer__col3,
+    .footer__col4 {
+        text-align: center;
+    }
+    .FMain {
+        height: 120vh;
+    }
+    .footer__col3 h2 {
+        margin-left: 6px !important;
+    }
+    .footer__col2 h2 {
+        margin-left: 12px !important;
+    }
+    .footer__col4 h2 {
+        margin-left: 0px !important;
+    }
+    .footer__col3 li {
+        margin-left: -26px !important;
+    }
+    .footer__col2 li {
+        margin-left: -26px !important;
+    }
+    .footer__col4 li {
+        margin-left: -38px !important;
+    }
+    .FMain {
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .FMain {
+        height: 34vh;
+    }
+}

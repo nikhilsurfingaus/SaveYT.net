@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(234, 232, 232) !important;
+}
+
+
+/* =========== custom scroll-bar ========= */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #034601;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1.8em;
+    background: linear-gradient(-45deg, #79dd37, #58a524, #58bc15, #79dd37);
+}

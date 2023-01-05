@@ -1,0 +1,129 @@
+.header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111111;
+    background: #68c12d;
+}
+
+.barLogo {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.barLogo a {
+    text-decoration: none !important;
+}
+
+.barLogo h1 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: black;
+}
+
+.logo img {
+    width: 60px;
+    height: 50px;
+}
+
+.header__shrink {
+    background: #68c12d;
+    box-shadow: 3px 3px 3px -2px #80ed37;
+}
+
+.navigation {
+    margin: auto;
+    margin-left: 8.5%;
+    width: 50%;
+    margin-top: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 2.7rem;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav__list {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav__item a:hover {
+    color: black;
+    transition: 300ms;
+    padding-bottom: 8px;
+    border-bottom: 4px solid black;
+    transition: all 0.2s ease-out;
+}
+
+.active {
+    color: black !important;
+}
+
+.logo h2 {
+    background: linear-gradient(-45deg, #12bacd, #1879e9, #3492e4, #3ac4ff);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    margin-bottom: 0;
+}
+
+.nav__right .btn {
+    padding: 7px 25px;
+    border: 1px solid #1b99bc;
+    border-radius: 50px;
+}
+
+.nav__right .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.nav__right .btn span i {
+    color: #fff;
+}
+
+.nav__right .btn:hover {
+    background-color: #fff;
+}
+
+.nav__right .btn:hover i {
+    color: black !important;
+}
+
+.nav__right .btn:hover a {
+    color: black !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .barLogo {
+        display: none;
+    }
+    .navigation {
+        margin-left: 22%;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .navigation {
+        margin-left: 11.25%;
+    }
+}

@@ -1,0 +1,20 @@
+.dButton {
+    background-color: #79dd37 !important;
+}
+
+.dButton:hover {
+    background-color: #6dc433 !important;
+}
+
+.downy {
+    border-color: #79dd37 !important;
+    color: black !important;
+}
+
+.downy:hover {
+    color: #7b8773 !important;
+}
+
+.hovI {
+    cursor: help;
+}
