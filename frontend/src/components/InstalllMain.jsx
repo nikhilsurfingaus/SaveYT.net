@@ -76,7 +76,7 @@ function InstalllMain() {
                 </Title>
             </div>
             <div className="downPKG">
-                <a href="https://github.com/nikhilsurfingaus?tab=repositories" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/nikhilsurfingaus/SaveYT.net" target="_blank" rel="noopener noreferrer">
                     <Button
                         type="primary"
                         htmlType="button"
