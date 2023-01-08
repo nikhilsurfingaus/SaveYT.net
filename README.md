@@ -18,11 +18,11 @@ src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawin
 
 - **Nodemon** is a a command-line tool that helps with the speedy development of Express Js. It monitors the project directory and automatically restarts the node application when it detects any changes. Was only use in development mode for testing, switching to node to run the EXpress Js server after deployment. 
 
-- **YTDL-Core** Datastore is the schemaless backend that stores and query's JSON documents including all users and their transaction history, and subscribe to real-time changes. It comes with a query API that uses the query language GROQ to quickly filter down to the documents exactly the data structured using those schemas. 
+- **YTDL-Core** YouTube downloading module. Written with only Javascript and a node-friendly streaming interface. 
 
-- **.Env** is the development environment that compiled and deployed this **dApp** on the Ethereum blockchain.
+- **.Env** The environmnt variables used to set different PORTS for deployment and on local running servers. For local running server PORT=4000 is constant. The .Env file for the deployed Express Js server sets this value using an Avaliabe port using PORT=process.env.PORT.
 
-- **Axios** was the object-oriented programming language created specifically by the Ethereum Network to design the OP Burner smart contract on the Ethereum Blockchain platform.
+- **Axios** 
 
 - **Render Cloud** is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism's EVM-equivalent architecture scales your Ethereum apps without surprises. This project was deployed to the Goreli Optimism Testnet, and is scable to the Optimism Mainnet.
 
