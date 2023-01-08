@@ -35,7 +35,7 @@ Our website offers the following features:
 - Install guide to run application on a local server
 
 ## Video Demo 
-[![Watch the video](http://img.youtube.com/vi/UEgdeZbM8Zc/hqdefault.jpg)](https://youtu.be/UEgdeZbM8Zc)
+[![Watch the video](https://img.youtube.com/vi/kIKB0-A1fVk/hqdefault.jpg)](https://youtu.be/kIKB0-A1fVk)
 
 
 ## Screenshots 
