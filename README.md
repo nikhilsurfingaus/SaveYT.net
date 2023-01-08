@@ -27,23 +27,13 @@ src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawin
 - **Render Cloud** is a unified cloud to build and run all  apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys the Express Js server from the Backend Github.
 
 ## Description 
-Quiver calls all ocean lovers and wave chargers to own pieces of surfing history with NFT surfboards ridden by current and past legends of proffessional surfing. Quiver also aims to contribute towards the security of Ethereum Smart Contarcts with numerous projects that need your support.
+SaveYT.net provides users with the simple experience of downloading Youtube videos in a rnage of mp4/mp3 formats. 
 
 Our website offers the following features:
 
-- OP Token Burn Station
-- Transaction History
-- Metamask Connection
-- Particle VFX
-
-## Application Process
-- Connect To Metamask using Transaction Context API
-- Use Sanity to create or load user details and tranactions
-- Deduct funds via deployed smart contract on Goreli Optimism Testnet
-- Load Spinning UI
-- Save Transaction to Sanity DB 
-- Display Trabsaction History with TXN Hash Link to Etherscan
-- Ability to refresh page
+- Download Youtube Vidoes mp3/mp4
+- Help Section on how to download videos
+- Install guide to run application on a local server
 
 ## Video Demo 
 [![Watch the video](http://img.youtube.com/vi/UEgdeZbM8Zc/hqdefault.jpg)](https://youtu.be/UEgdeZbM8Zc)
@@ -57,21 +47,43 @@ Our website offers the following features:
   <img src="https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject/blob/master/client/assets/4.png" height=45% width=45% />
 </p>
 
+## Local Install
+- Connect To Metamask using Transaction Context API
+- Use Sanity to create or load user details and tranactions
+- Deduct funds via deployed smart contract on Goreli Optimism Testnet
+- Load Spinning UI
+- Save Transaction to Sanity DB 
+- Display Trabsaction History with TXN Hash Link to Etherscan
+- Ability to refresh page
+
 ## Libraries
-    "@emotion/react": "^11.10.5",
-    "@sanity/client": "^3.4.1",
-    "animate.css": "^4.1.1",
-    "ethers": "^5.7.2",
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.7.1",
-    "react-modal": "^3.16.1",
-    "react-spinners": "^0.13.7",
-    "react-tooltip": "^5.2.0",
-    "react-tsparticles": "^2.6.0",
-    "tsparticles": "^2.6.0"
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.20",
+        "ytdl-core": "^4.11.2"
+        "@fortawesome/fontawesome-free": "^6.2.1",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "animate.css": "^4.1.1",
+        "antd": "^5.1.1",
+        "axios": "^1.2.2",
+        "cdbreact": "^1.5.4",
+        "mdb-react-ui-kit": "^5.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-github-user-stats": "^1.0.9",
+        "react-icons": "^4.7.1",
+        "react-router-dom": "^6.6.1",
+        "react-scripts": "5.0.1",
+        "react-simple-image-slider": "^2.4.1",
+        "react-tooltip": "^5.3.2",
+        "react-ui-cards": "^3.0.2",
+        "reactstrap": "^9.1.5",
+        "styled-components": "^5.3.6",
+        "web-vitals": "^2.1.4"
 
 ## Copyright
 
-**Copyrights 2022, Developed by Nikhil Naik. @WaveFlightSimulation All Rights Reserved.**
+**Copyrights 2023, Developed by Nikhil Naik. @WaveFlightSimulation All Rights Reserved.**
