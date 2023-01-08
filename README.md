@@ -22,9 +22,9 @@ src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawin
 
 - **.Env** The environmnt variables used to set different PORTS for deployment and on local running servers. For local running server PORT=4000 is constant. The .Env file for the deployed Express Js server sets this value using an Avaliabe port using PORT=process.env.PORT.
 
-- **Axios** 
+- **Axios** is a library that serves to create HTTP requests that are present externally. This includes fetching data from both the deployed backend Express Js server which returns the results of the YTDL-Core from the parsed user URL. Axios also fetches live stats for my Github profile in the Install page using the Github REST API.
 
-- **Render Cloud** is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism's EVM-equivalent architecture scales your Ethereum apps without surprises. This project was deployed to the Goreli Optimism Testnet, and is scable to the Optimism Mainnet.
+- **Render Cloud** is a unified cloud to build and run all  apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys the Express Js server from the Backend Github.
 
 ## Description 
 Quiver calls all ocean lovers and wave chargers to own pieces of surfing history with NFT surfboards ridden by current and past legends of proffessional surfing. Quiver also aims to contribute towards the security of Ethereum Smart Contarcts with numerous projects that need your support.
