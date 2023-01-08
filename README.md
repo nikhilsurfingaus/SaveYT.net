@@ -30,7 +30,6 @@ src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawin
 SaveYT.net provides users with the simple experience of downloading Youtube videos in a rnage of mp4/mp3 formats. 
 
 Our website offers the following features:
-
 - Download Youtube Vidoes mp3/mp4
 - Help Section on how to download videos
 - Install guide to run application on a local server
@@ -48,13 +47,20 @@ Our website offers the following features:
 </p>
 
 ## Local Install
-- Connect To Metamask using Transaction Context API
-- Use Sanity to create or load user details and tranactions
-- Deduct funds via deployed smart contract on Goreli Optimism Testnet
-- Load Spinning UI
-- Save Transaction to Sanity DB 
-- Display Trabsaction History with TXN Hash Link to Etherscan
-- Ability to refresh page
+- Download this project using:
+```
+git clone https://github.com/nikhilsurfingaus/SaveYT.net.git
+```
+- Setup Two Terminals
+- Navigate to the Backend folder and use:
+```
+npm start
+```
+To ensure the Backend runs on Port 4000
+-Navigate to the Frontend and start the web application using
+```
+npm start
+```
 
 ## Libraries
         "cors": "^2.8.5",
