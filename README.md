@@ -40,10 +40,11 @@ Our website offers the following features:
 
 ## Screenshots 
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject/blob/master/client/assets/1.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject/blob/master/client/assets/2.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject/blob/master/client/assets/3.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject/blob/master/client/assets/4.png" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help2.png" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help3.png" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help4.png" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help5.png" height=45% width=45% />
 </p>
 
 ## Local Install
