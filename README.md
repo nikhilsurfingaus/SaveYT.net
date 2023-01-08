@@ -10,13 +10,13 @@ src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawin
 <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-icon-app-logo-png-9.png" alt="drawing" width="100"/>
 <img src="https://camo.githubusercontent.com/6429c650a0704c7e5aa80ee3fc7d3164385af330f0fabc5e5afd683236aebacb/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64673264677a6274342f696d6167652f75706c6f61642f76313538373037303137372f65787465726e616c5f6173736574732f6f70656e5f736f757263652f69636f6e732f646f74656e762e706e67" alt="drawing" width="100"/>
 <img src="https://user-images.githubusercontent.com/16843090/101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png" alt="drawing" width="100"/>
+<img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/j8z02ssteea4zj1k1nyz" alt="drawing" width="100"/>
 
-- **React** Framework Library Web Application Optimism Burn Station Web Application currently deployed on the OP ETH Goerli Testnet enables users to burn their OP Tokens, decreasing circulating supply, subsequently increasing the value of the OP Tokenomics.
+- **React** Framework Library Web Application SaveYT.net enables users to download videos from Youtube in a range of video/audio formats. Includes a tutorial on how to use the web app. As well as ability to download and run the web app locally on a local server. 
 
-- **Express Node Js** is a frontend JavaScript framework built on React's UI library that is lightweight, server-rendered, and flexible. Developers typically use Next. js to build static, fully interactive sites and apps that are fast and easy to use.
+- **Express Node Js** Express Js is used in the backend stack. This server enables the YTDL-Core Youtube downloading module to execute when given a URL for a Youtube video. 
 
-- **Nodemon** is also integrated, enabling users to connect their Metamask wallet to burn OP Tokens, as a transaction with the server side
-Ethereum Deployed Solidty Smart Contract
+- **Nodemon** is a a command-line tool that helps with the speedy development of Express Js. It monitors the project directory and automatically restarts the node application when it detects any changes. Was only use in development mode for testing, switching to node to run the EXpress Js server after deployment. 
 
 - **YTDL-Core** Datastore is the schemaless backend that stores and query's JSON documents including all users and their transaction history, and subscribe to real-time changes. It comes with a query API that uses the query language GROQ to quickly filter down to the documents exactly the data structured using those schemas. 
 
@@ -24,9 +24,7 @@ Ethereum Deployed Solidty Smart Contract
 
 - **Axios** was the object-oriented programming language created specifically by the Ethereum Network to design the OP Burner smart contract on the Ethereum Blockchain platform.
 
-- **Backend** is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism's EVM-equivalent architecture scales your Ethereum apps without surprises. This project was deployed to the Goreli Optimism Testnet, and is scable to the Optimism Mainnet.
-
-- **Frontend** makes it quicker to write and maintain the application code. By using this utility-first framework, don't have to write custom CSS to style in the  application. Instead, use utility classes to control the padding, margin, color, font, shadow, and more of the application.
+- **Render Cloud** is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism's EVM-equivalent architecture scales your Ethereum apps without surprises. This project was deployed to the Goreli Optimism Testnet, and is scable to the Optimism Mainnet.
 
 ## Description 
 Quiver calls all ocean lovers and wave chargers to own pieces of surfing history with NFT surfboards ridden by current and past legends of proffessional surfing. Quiver also aims to contribute towards the security of Ethereum Smart Contarcts with numerous projects that need your support.
