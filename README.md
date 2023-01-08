@@ -61,7 +61,7 @@ git clone https://github.com/nikhilsurfingaus/SaveYT.net.git
 npm start
 ```
 To ensure the Backend runs on Port 4000
--Navigate to the Frontend and start the web application using
+- Navigate to the Frontend and start the web application using
 ```
 npm start
 ```
