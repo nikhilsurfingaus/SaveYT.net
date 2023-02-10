@@ -2,7 +2,7 @@
 
 ## Site Link: [https://saveyt.net](https://save-yt-net.netlify.app/)
 
-## Website Powered By 
+## Website Powered By: 
 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
 src="https://miro.medium.com/max/1200/1*mT9FVpEB-hAWElqMcE8hIg.jpeg" alt="drawing" height="80" width="100"/> 
