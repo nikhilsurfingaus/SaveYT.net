@@ -1,6 +1,6 @@
 # <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Logo.png" alt="drawing" height="75" width="75"/> SaveYT.net Web Application 
 
-## Site Link: [https://saveyt.net](https://save-yt-net.netlify.app/)
+## Link: [https://saveyt.net](https://save-yt-net.netlify.app/)
 
 ## Website Powered By: 
 
